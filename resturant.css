@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* body styling */
+body,html{
+    background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2020/08/classy-restaurant.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* styling the header */
+
+.container
+        {
+          max-width: 1200px;   margin: 0 auto;
+        }
+         ul
+         {
+            list-style: none;
+         }
+          a
+          {
+            text-decoration: none;    
+            color: rgb(133, 132, 132);
+            /* justify-content: space-between; */
+            font-weight: 600;
+          } 
+          header
+          {
+           
+            padding: 20px;
+           position: fixed;
+            top: 0;
+            z-index: 100;
+          }
+          
+          nav
+        {
+            display: flex; 
+            position: fixed;
+             align-items: center;
+             
+        }
+        nav ul
+        {
+            display: flex;  gap: 15px;  font-size: 1.6rem; 
+        }
+        nav ul li
+        {
+            border-bottom: 2px solid transparent;
+            transition: 0.3s ease-in-out;
+        }
+        nav ul li:hover
+        {
+            border-bottom: 2px solid white;
+            transition: 0.3s ease-in-out;
+        }
+
+/* top serction */
+
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position:relative;
+    background-image: url("https://img.tradeford.com/pimages/l/9/555419.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 40s infinite ease-in-out; 
+}
+/* slides background */
+@keyframes change{
+    0%
+    {
+        background-image: url("https://www.deputy.com/uploads/2018/10/The-Most-Popular-Menu-Items-That-You-should-Consider-Adding-to-Your-Restaurant_Content-image1-min-1024x569.png");
+    }
+    20%
+    {
+        background-image: url("https://assets1.cbsnewsstatic.com/hub/i/2015/07/01/0b059f60-344d-4ada-baae-e683aff3650a/istock000044051102large.jpg");
+    }
+    40%
+    {
+        background-image: url("https://www.yourhomebasedmom.com/wp-content/uploads/2020/02/how-to-make-cheesy-bread-3.jpg");
+    }
+    60%
+    {
+        background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/210211143233-28-classic-italian-dishes.jpg?q=w_2472,h_1391,x_0,y_0,c_fill/h_618");
+    }
+    80%
+    {
+        background-image: url("https://qph.cf2.quoracdn.net/main-qimg-3c68d097af1219d580d3f2bf99cf4f26");
+    }
+    100%
+    {
+        background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/181115110418-korean-food041200802001k-nakji-bokkeumstri-fried-small-octopus.jpg?q=w_1600,h_900,x_0,y_0,c_fill/h_618");
+    }
+}
+
+/* every heading style */
+.heading{
+    text-align: center;
+    color: #770e0e;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.heading span{
+    color:#ffcc00;
+    text-transform: uppercase;
+}
+/* home section styling */
+.about-us {
+    text-align:center;
+    background-color: #000;
+    background-size: cover;
+    padding: 50px;
+}
+.content {
+    text-align: center;     
+}
+.about-us h2, p, img {
+    margin-bottom: 0px;
+}
+.about-us p {
+    font-family: 'Georgia', serif; 
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff; 
+    font-weight: bold;
+}
+.about-us h2 {
+    font-family: 'Arial', sans-serif;
+    color: #770e0e;
+    font-size: 3rem; 
+}
+.about-us img {
+ height: 400px;
+ width: 100%; 
+}  
+
+/* menu section */
+.menu {
+    text-align: center;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/574/309/desktop-wallpaper-restaurant-menu-menu-thumbnail.jpg");
+    background-size: cover;
+    padding: 10px;
+    display: block;
+}
+.menu h5 {
+   
+    color: #fcfbfb;
+    font-size: 30px;
+}
+
+.menu .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+  }
+  
+  .menu .menu-items .menu-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .menu .menu-items .menu-item h3 {
+    color: white;
+    border-bottom: 1px dashed #000;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  
+  #menu .menu-items .menu-item span {
+    position: absolute;
+    right: 0px;
+    top: 0;
+  }
+  
+  .menu .menu-items .menu-item p {
+    margin-top: 0px;
+    color: aliceblue;
+  }
+  
+
+.heading{
+    text-align: center;
+    color: #770e0e;
+    text-transform: uppercase;
+    font-size: 3rem;
+   
+}
+
+.heading span{
+    color:#ffcc00;
+    text-transform: uppercase;
+}
+/* contact*/
+#contact {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/574/309/desktop-wallpaper-restaurant-menu-menu-thumbnail.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    
+}
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #f0e1e1;
+    margin-bottom: 60px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    color: #f2eaea;
+    margin-bottom: 30px;
+} 
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #e6d7d7;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+form button {
+    background: rgb(68, 0, 23);
+    color: rgb(232, 185, 185);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-start-start-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+form button:hover {
+    background: palegreen;
+}
+.heading{
+    text-align: center;
+    color: #3b0202;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.heading span{
+    color:#ffcc00;
+    text-transform: uppercase; 
+}
+
+
+/* footer */
+.footer-section {
+   background-image: url("https://cdn.wallpapersafari.com/23/64/reATgs.jpg");
+   background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+    
+}
+
+
+.footer-section-about {
+    font-size: 1.2em;
+    text-align: center;   
+}
+
+.footer-section-contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.footer-section-links  h2 {
+    font-size:2rem;
+    margin-left: 820px;
+   justify-content: space-between;
+    gap: 40px;
+   
+    
+}
+/*  */
+
+.News-letter h3
+{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(90, 87, 87);
+    margin-left: 850px;
+
+}
+.News-letter input
+{
+    padding: 5px 40px;
+    margin-bottom: 10px;
+    margin-left: 850px;
+
+}
+
+.icon-container
+{
+    display: flex;
+  justify-content: center;
+    font-size: 30px;
+    gap: 40px;
+    margin-left: 50px;
+   
+}
+
+
+.footer-bottom {
+    background:#2d2d2d;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    
+} 
